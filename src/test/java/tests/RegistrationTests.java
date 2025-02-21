@@ -24,9 +24,19 @@ public class RegistrationTests extends TestBase{
         app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitRegistration();
         Assert.assertTrue(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isNoContactsHereDisplayed());
     }
 
     @Test
+    public void RegistrationExistUser(){
+        User user = new User().setEmail("d@gmail.com").setPassword("DariaM1991!");
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm(user);
+        app.getHelperUser().submitRegistration();
+        Assert.assertTrue(app.getHelperUser().isAlertPresent("User already exist"));
+    }
+
+    @Test(description = "Bug report #12365")
     public void RegistrationWrongEmail(){
         Random random = new Random();
         int i = (int)((System.currentTimeMillis()/1000)%3600);

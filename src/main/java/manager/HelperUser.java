@@ -31,6 +31,7 @@ public class HelperUser extends HelperBase {
         type(By.xpath("//input[last()]"),password);
 
 
+
     }
 
     public void submitLogin(){
@@ -51,8 +52,8 @@ public class HelperUser extends HelperBase {
 
     public void fillLoginRegistrationForm(User user) {
         type(By.name("email"), user.getEmail());
-        //type(By.xpath("//input[last()]"), user.getPassword());
-        type(By.xpath("//input[la]"), user.getPassword());
+        type(By.xpath("//input[last()]"), user.getPassword());
+
     }
 
 

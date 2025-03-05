@@ -20,13 +20,16 @@ public class HelperUser extends HelperBase {
        // WebElement loginTab = wd.findElement(By.xpath("a[text()]='LOGIN"));
         //loginTab.click();
         click(By.cssSelector("a[href='/login']"));
+        logger.info("Open form by click on button with locator (By.cssSelector(\"a[href='/login']\")'");
     }
 
     public void fillLoginRegistrationForm(String email, String password) {
         //WebElement emailInput = wd.findElement(By.name("email"));
         type(By.name("email"),email);
+        logger.info("Tpe in input with  locator By.name(\"email\"),email");
         //WebElement passwordInput = wd.findElement(By.xpath("//input[last()]"));
         type(By.xpath("//input[last()]"),password);
+
 
     }
 
@@ -48,14 +51,10 @@ public class HelperUser extends HelperBase {
 
     public void fillLoginRegistrationForm(User user) {
         type(By.name("email"), user.getEmail());
-        type(By.xpath("//input[last()]"), user.getPassword());
+        //type(By.xpath("//input[last()]"), user.getPassword());
+        type(By.xpath("//input[la]"), user.getPassword());
     }
 
-    public boolean isNoContactsHereDisplayed() {
-        WebDriverWait wait = new WebDriverWait(wd, Duration.ofSeconds(5));
-       return wait.until(ExpectedConditions.textToBePresentInElement(wd.findElement(By.cssSelector(".contact-page_message__2qafk>h1")),
-                "No Contacts here"));
-    }
 
     public void login(User user) {
         openLoginRegistrationForm();

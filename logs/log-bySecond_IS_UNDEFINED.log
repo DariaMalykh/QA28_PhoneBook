@@ -1,0 +1,130 @@
+10:33:45.463  INFO  manager.ApplicationManager - All tests run in Chrom Browser
+10:33:46.388  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+10:33:46.419  INFO  tests.TestBase - Name of method--->loginSuccess
+10:33:51.441  INFO  tests.TestBase - Before method finished logout
+10:33:51.443  INFO  tests.TestBase - Start test 'loginSuccess'
+10:33:51.504  INFO  manager.WDListener - Before click element--->atext = LOGIN
+10:33:51.590  INFO  manager.WDListener - After click element--->atext = LOGIN
+10:33:51.591  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+10:33:51.643  INFO  manager.WDListener - Before click element--->inputtext = 
+10:33:51.757  INFO  manager.WDListener - After click element--->inputtext = 
+10:33:51.824  INFO  manager.WDListener - sendKeys--->input
+10:33:51.852  INFO  manager.WDListener - sendKeys--->input
+10:33:51.876  INFO  manager.WDListener - sendKeys--->input
+10:33:51.876  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
+10:33:51.903  INFO  manager.WDListener - Before click element--->inputtext = 
+10:33:51.956  INFO  manager.WDListener - After click element--->inputtext = 
+10:33:52.009  INFO  manager.WDListener - sendKeys--->input
+10:33:52.053  INFO  manager.WDListener - sendKeys--->input
+10:33:52.089  INFO  manager.WDListener - sendKeys--->input
+10:33:52.089  INFO  tests.TestBase - Test data --> email: d@gmail.com & password: DariaM1991!
+10:33:52.112  INFO  manager.WDListener - Before click element--->buttontext = Login
+10:33:53.146  INFO  tests.TestBase - Assert check is element Button 'Sign out' present
+10:33:53.150  INFO  tests.TestBase - Name of method--->loginSuccessModel
+10:33:53.220  INFO  manager.WDListener - Before click element--->buttontext = Sign Out
+10:33:53.290  INFO  tests.TestBase - Before method finished logout
+10:33:53.334  INFO  manager.WDListener - Before click element--->atext = LOGIN
+10:33:53.411  INFO  manager.WDListener - After click element--->atext = LOGIN
+10:33:53.411  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+10:33:53.450  INFO  manager.WDListener - Before click element--->inputtext = 
+10:33:53.537  INFO  manager.WDListener - After click element--->inputtext = 
+10:33:53.614  INFO  manager.WDListener - sendKeys--->input
+10:33:53.652  INFO  manager.WDListener - sendKeys--->input
+10:33:53.686  INFO  manager.WDListener - sendKeys--->input
+10:33:53.686  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
+10:33:53.709  INFO  manager.WDListener - Before click element--->inputtext = 
+10:33:53.805  INFO  manager.WDListener - After click element--->inputtext = 
+10:33:53.890  INFO  manager.WDListener - sendKeys--->input
+10:33:53.939  INFO  manager.WDListener - sendKeys--->input
+10:33:53.985  INFO  manager.WDListener - sendKeys--->input
+10:33:54.017  INFO  manager.WDListener - Before click element--->buttontext = Login
+10:33:54.403  INFO  tests.TestBase - Name of method--->loginUnregisterUser
+10:33:54.470  INFO  manager.WDListener - Before click element--->buttontext = Sign Out
+10:33:54.567  INFO  tests.TestBase - Before method finished logout
+10:33:54.602  INFO  manager.WDListener - Before click element--->atext = LOGIN
+10:33:54.679  INFO  manager.WDListener - After click element--->atext = LOGIN
+10:33:54.679  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+10:33:54.721  INFO  manager.WDListener - Before click element--->inputtext = 
+10:33:54.818  INFO  manager.WDListener - After click element--->inputtext = 
+10:33:54.853  INFO  manager.WDListener - sendKeys--->input
+10:33:54.878  INFO  manager.WDListener - sendKeys--->input
+10:33:54.907  INFO  manager.WDListener - sendKeys--->input
+10:33:54.907  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
+10:33:54.942  INFO  manager.WDListener - Before click element--->inputtext = 
+10:33:55.011  INFO  manager.WDListener - After click element--->inputtext = 
+10:33:55.051  INFO  manager.WDListener - sendKeys--->input
+10:33:55.075  INFO  manager.WDListener - sendKeys--->input
+10:33:55.106  INFO  manager.WDListener - sendKeys--->input
+10:33:55.107  INFO  tests.TestBase - Test data --> email: daaara@gmail.com & password: DariaM1991!
+10:33:55.129  INFO  manager.WDListener - Before click element--->buttontext = Login
+10:34:00.707  INFO  tests.TestBase - Assert check is alert present with error text 'Wrong email or password'
+10:34:00.708  INFO  tests.TestBase - Name of method--->loginWrongEmail
+10:34:05.725  INFO  tests.TestBase - Before method finished logout
+10:34:05.763  INFO  manager.WDListener - Before click element--->atext = LOGIN
+10:34:05.891  INFO  manager.WDListener - After click element--->atext = LOGIN
+10:34:05.892  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+10:34:05.921  INFO  manager.WDListener - Before click element--->inputtext = 
+10:34:05.993  INFO  manager.WDListener - After click element--->inputtext = 
+10:34:06.089  INFO  manager.WDListener - sendKeys--->input
+10:34:06.110  INFO  manager.WDListener - sendKeys--->input
+10:34:06.131  INFO  manager.WDListener - sendKeys--->input
+10:34:06.132  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
+10:34:06.147  INFO  manager.WDListener - Before click element--->inputtext = 
+10:34:06.189  INFO  manager.WDListener - After click element--->inputtext = 
+10:34:06.242  INFO  manager.WDListener - sendKeys--->input
+10:34:06.265  INFO  manager.WDListener - sendKeys--->input
+10:34:06.291  INFO  manager.WDListener - sendKeys--->input
+10:34:06.291  INFO  tests.TestBase - Test data --> email: dgmail.com & password: DariaM1991!
+10:34:06.308  INFO  manager.WDListener - Before click element--->buttontext = Login
+10:34:11.903  INFO  tests.TestBase - Assert check is alert present with error text 'Wrong email or password'
+10:34:11.905  INFO  tests.TestBase - Name of method--->loginWrongPassword
+10:34:16.917  INFO  tests.TestBase - Before method finished logout
+10:34:16.952  INFO  manager.WDListener - Before click element--->atext = LOGIN
+10:34:17.006  INFO  manager.WDListener - After click element--->atext = LOGIN
+10:34:17.006  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+10:34:17.035  INFO  manager.WDListener - Before click element--->inputtext = 
+10:34:17.080  INFO  manager.WDListener - After click element--->inputtext = 
+10:34:17.139  INFO  manager.WDListener - sendKeys--->input
+10:34:17.172  INFO  manager.WDListener - sendKeys--->input
+10:34:17.219  INFO  manager.WDListener - sendKeys--->input
+10:34:17.219  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
+10:34:17.252  INFO  manager.WDListener - Before click element--->inputtext = 
+10:34:17.320  INFO  manager.WDListener - After click element--->inputtext = 
+10:34:17.362  INFO  manager.WDListener - sendKeys--->input
+10:34:17.381  INFO  manager.WDListener - sendKeys--->input
+10:34:17.405  INFO  manager.WDListener - sendKeys--->input
+10:34:17.422  INFO  manager.WDListener - Before click element--->inputtext = 
+10:34:17.465  INFO  manager.WDListener - After click element--->inputtext = 
+10:34:17.508  INFO  manager.WDListener - sendKeys--->input
+10:34:17.525  INFO  manager.WDListener - sendKeys--->input
+10:34:17.547  INFO  manager.WDListener - sendKeys--->input
+10:34:17.549  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
+10:34:17.569  INFO  manager.WDListener - Before click element--->inputtext = 
+10:34:17.624  INFO  manager.WDListener - After click element--->inputtext = 
+10:34:17.675  INFO  manager.WDListener - sendKeys--->input
+10:34:17.696  INFO  manager.WDListener - sendKeys--->input
+10:34:17.715  INFO  manager.WDListener - sendKeys--->input
+10:34:17.733  INFO  manager.WDListener - Before click element--->buttontext = Login
+10:34:23.320  INFO  tests.TestBase - Assert check is alert present with error text 'Wrong email or password'
+11:00:58.074  INFO  manager.ApplicationManager - All tests run in Chrom Browser
+11:00:59.373  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+11:00:59.400  INFO  tests.TestBase - Name of method--->loginSuccess
+11:01:04.415  INFO  tests.TestBase - Before method finished logout
+11:01:04.416  INFO  tests.TestBase - Start test 'loginSuccess'
+11:01:04.466  INFO  manager.WDListener - Before click element--->atext = LOGIN
+11:01:04.544  INFO  manager.WDListener - After click element--->atext = LOGIN
+11:01:04.545  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+11:01:04.591  INFO  manager.WDListener - Before click element--->inputtext = 
+11:01:04.648  INFO  manager.WDListener - After click element--->inputtext = 
+11:01:04.734  INFO  manager.WDListener - sendKeys--->input
+11:01:04.797  INFO  manager.WDListener - sendKeys--->input
+11:01:04.822  INFO  manager.WDListener - sendKeys--->input
+11:01:04.822  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
+11:01:04.863  INFO  manager.WDListener - Before click element--->inputtext = 
+11:01:04.944  INFO  manager.WDListener - After click element--->inputtext = 
+11:01:04.982  INFO  manager.WDListener - sendKeys--->input
+11:01:05.009  INFO  manager.WDListener - sendKeys--->input
+11:01:05.042  INFO  manager.WDListener - sendKeys--->input
+11:01:05.042  INFO  tests.TestBase - Test data --> email: d@gmail.com & password: DariaM1991!
+11:01:05.068  INFO  manager.WDListener - Before click element--->buttontext = Login
+11:01:06.145  INFO  tests.TestBase - Assert check is element Button 'Sign out' present

@@ -1,207 +1,63 @@
-20:06:37.242  INFO  manager.ApplicationManager - All tests run in Chrom Browser
-20:06:38.024  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
-20:06:38.033  INFO  manager.TestNGListener - ***********************Start test  ----> Sun Mar 09 20:06:38 IST 2025
-20:06:38.048  INFO  tests.TestBase - Name of method--->loginSuccessWithDataProvider
-20:06:43.068  INFO  tests.TestBase - Before method finished logout
-20:06:43.070  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
-20:06:43.070  INFO  tests.TestBase - Start test 'loginSuccess'
-20:06:43.107  INFO  manager.WDListener - Before click element--->atext = LOGIN
-20:06:43.168  INFO  manager.WDListener - After click element--->atext = LOGIN
-20:06:43.168  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
-20:06:43.197  INFO  manager.WDListener - Before click element--->inputtext = 
-20:06:43.252  INFO  manager.WDListener - After click element--->inputtext = 
-20:06:43.305  INFO  manager.WDListener - sendKeys--->input
-20:06:43.331  INFO  manager.WDListener - sendKeys--->input
-20:06:43.360  INFO  manager.WDListener - sendKeys--->input
-20:06:43.360  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
-20:06:43.387  INFO  manager.WDListener - Before click element--->inputtext = 
-20:06:43.434  INFO  manager.WDListener - After click element--->inputtext = 
-20:06:43.469  INFO  manager.WDListener - sendKeys--->input
-20:06:43.489  INFO  manager.WDListener - sendKeys--->input
-20:06:43.514  INFO  manager.WDListener - sendKeys--->input
-20:06:43.515  INFO  tests.TestBase - Test data --> email: d@gmail.com & password: DariaM1991!
-20:06:43.541  INFO  manager.WDListener - Before click element--->buttontext = Login
-20:06:44.604  INFO  tests.TestBase - Assert check is element Button 'Sign out' present
-20:06:44.606  INFO  manager.TestNGListener - Test success loginSuccessWithDataProvider
-20:06:44.607  INFO  tests.TestBase - Name of method--->loginSuccessWithDataProvider
-20:06:44.646  INFO  manager.WDListener - Before click element--->buttontext = Sign Out
-20:06:44.690  INFO  tests.TestBase - Before method finished logout
-20:06:44.690  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
-20:06:44.690  INFO  tests.TestBase - Start test 'loginSuccess'
-20:06:44.715  INFO  manager.WDListener - Before click element--->atext = LOGIN
-20:06:44.761  INFO  manager.WDListener - After click element--->atext = LOGIN
-20:06:44.761  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
-20:06:44.786  INFO  manager.WDListener - Before click element--->inputtext = 
-20:06:44.837  INFO  manager.WDListener - After click element--->inputtext = 
-20:06:44.881  INFO  manager.WDListener - sendKeys--->input
-20:06:44.902  INFO  manager.WDListener - sendKeys--->input
-20:06:44.928  INFO  manager.WDListener - sendKeys--->input
-20:06:44.928  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
-20:06:44.950  INFO  manager.WDListener - Before click element--->inputtext = 
-20:06:45.002  INFO  manager.WDListener - After click element--->inputtext = 
-20:06:45.040  INFO  manager.WDListener - sendKeys--->input
-20:06:45.058  INFO  manager.WDListener - sendKeys--->input
-20:06:45.082  INFO  manager.WDListener - sendKeys--->input
-20:06:45.082  INFO  tests.TestBase - Test data --> email: d@gmail.com & password: DariaM1991!
-20:06:45.107  INFO  manager.WDListener - Before click element--->buttontext = Login
-20:06:45.461  INFO  tests.TestBase - Assert check is element Button 'Sign out' present
-20:06:45.461  INFO  manager.TestNGListener - Test success loginSuccessWithDataProvider
-20:06:45.461  INFO  tests.TestBase - Name of method--->loginSuccessWithDataProvider
-20:06:45.494  INFO  manager.WDListener - Before click element--->buttontext = Sign Out
-20:06:45.540  INFO  tests.TestBase - Before method finished logout
-20:06:45.541  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
-20:06:45.541  INFO  tests.TestBase - Start test 'loginSuccess'
-20:06:45.561  INFO  manager.WDListener - Before click element--->atext = LOGIN
-20:06:45.602  INFO  manager.WDListener - After click element--->atext = LOGIN
-20:06:45.603  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
-20:06:45.623  INFO  manager.WDListener - Before click element--->inputtext = 
-20:06:45.672  INFO  manager.WDListener - After click element--->inputtext = 
-20:06:45.708  INFO  manager.WDListener - sendKeys--->input
-20:06:45.726  INFO  manager.WDListener - sendKeys--->input
-20:06:45.750  INFO  manager.WDListener - sendKeys--->input
-20:06:45.750  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
-20:06:45.772  INFO  manager.WDListener - Before click element--->inputtext = 
-20:06:45.817  INFO  manager.WDListener - After click element--->inputtext = 
-20:06:45.855  INFO  manager.WDListener - sendKeys--->input
-20:06:45.873  INFO  manager.WDListener - sendKeys--->input
-20:06:45.896  INFO  manager.WDListener - sendKeys--->input
-20:06:45.896  INFO  tests.TestBase - Test data --> email: d@gmail.com & password: DariaM1991!
-20:06:45.927  INFO  manager.WDListener - Before click element--->buttontext = Login
-20:06:46.228  INFO  tests.TestBase - Assert check is element Button 'Sign out' present
-20:06:46.228  INFO  manager.TestNGListener - Test success loginSuccessWithDataProvider
-20:06:46.230  INFO  manager.TestNGListener - *******************End test  ----> Sun Mar 09 20:06:46 IST 2025
-20:11:39.907  INFO  manager.ApplicationManager - All tests run in Chrom Browser
-20:11:41.299  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
-20:11:41.306  INFO  manager.TestNGListener - ***********************Start test  ----> Sun Mar 09 20:11:41 IST 2025
-20:11:41.322  INFO  tests.TestBase - Name of method--->loginSuccessWithDataProvider
-20:11:46.350  INFO  tests.TestBase - Before method finished logout
-20:11:46.352  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
-20:11:46.352  INFO  tests.TestBase - Start test 'loginSuccess'
-20:11:46.398  INFO  manager.WDListener - Before click element--->atext = LOGIN
-20:11:46.456  INFO  manager.WDListener - After click element--->atext = LOGIN
-20:11:46.456  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
-20:11:46.491  INFO  manager.WDListener - Before click element--->inputtext = 
-20:11:46.544  INFO  manager.WDListener - After click element--->inputtext = 
-20:11:46.595  INFO  manager.WDListener - sendKeys--->input
-20:11:46.621  INFO  manager.WDListener - sendKeys--->input
-20:11:46.651  INFO  manager.WDListener - sendKeys--->input
-20:11:46.651  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
-20:11:46.682  INFO  manager.WDListener - Before click element--->inputtext = 
-20:11:46.728  INFO  manager.WDListener - After click element--->inputtext = 
-20:11:46.768  INFO  manager.WDListener - sendKeys--->input
-20:11:46.788  INFO  manager.WDListener - sendKeys--->input
-20:11:46.814  INFO  manager.WDListener - sendKeys--->input
-20:11:46.814  INFO  tests.TestBase - Test data --> email: d@gmail.com & password: DariaM1991!
-20:11:46.840  INFO  manager.WDListener - Before click element--->buttontext = Login
-20:11:47.883  INFO  tests.TestBase - Assert check is element Button 'Sign out' present
-20:11:47.885  INFO  manager.TestNGListener - Test success loginSuccessWithDataProvider
-20:11:47.885  INFO  tests.TestBase - Name of method--->loginSuccessWithDataProvider
-20:11:47.944  INFO  manager.WDListener - Before click element--->buttontext = Sign Out
-20:11:47.990  INFO  tests.TestBase - Before method finished logout
-20:11:47.990  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
-20:11:47.991  INFO  tests.TestBase - Start test 'loginSuccess'
-20:11:48.024  INFO  manager.WDListener - Before click element--->atext = LOGIN
-20:11:48.084  INFO  manager.WDListener - After click element--->atext = LOGIN
-20:11:48.084  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
-20:11:48.111  INFO  manager.WDListener - Before click element--->inputtext = 
-20:11:48.172  INFO  manager.WDListener - After click element--->inputtext = 
-20:11:48.223  INFO  manager.WDListener - sendKeys--->input
-20:11:48.250  INFO  manager.WDListener - sendKeys--->input
-20:11:48.288  INFO  manager.WDListener - sendKeys--->input
-20:11:48.289  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
-20:11:48.319  INFO  manager.WDListener - Before click element--->inputtext = 
-20:11:48.378  INFO  manager.WDListener - After click element--->inputtext = 
-20:11:48.426  INFO  manager.WDListener - sendKeys--->input
-20:11:48.452  INFO  manager.WDListener - sendKeys--->input
-20:11:48.493  INFO  manager.WDListener - sendKeys--->input
-20:11:48.493  INFO  tests.TestBase - Test data --> email: d@gmail.com & password: DariaM1991!
-20:11:48.522  INFO  manager.WDListener - Before click element--->buttontext = Login
-20:11:48.844  INFO  tests.TestBase - Assert check is element Button 'Sign out' present
-20:11:48.844  INFO  manager.TestNGListener - Test success loginSuccessWithDataProvider
-20:11:48.844  INFO  tests.TestBase - Name of method--->loginSuccessWithDataProvider
-20:11:48.874  INFO  manager.WDListener - Before click element--->buttontext = Sign Out
-20:11:48.931  INFO  tests.TestBase - Before method finished logout
-20:11:48.932  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
-20:11:48.932  INFO  tests.TestBase - Start test 'loginSuccess'
-20:11:48.965  INFO  manager.WDListener - Before click element--->atext = LOGIN
-20:11:49.041  INFO  manager.WDListener - After click element--->atext = LOGIN
-20:11:49.041  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
-20:11:49.062  INFO  manager.WDListener - Before click element--->inputtext = 
-20:11:49.114  INFO  manager.WDListener - After click element--->inputtext = 
-20:11:49.152  INFO  manager.WDListener - sendKeys--->input
-20:11:49.174  INFO  manager.WDListener - sendKeys--->input
-20:11:49.220  INFO  manager.WDListener - sendKeys--->input
-20:11:49.220  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
-20:11:49.257  INFO  manager.WDListener - Before click element--->inputtext = 
-20:11:49.309  INFO  manager.WDListener - After click element--->inputtext = 
-20:11:49.361  INFO  manager.WDListener - sendKeys--->input
-20:11:49.382  INFO  manager.WDListener - sendKeys--->input
-20:11:49.411  INFO  manager.WDListener - sendKeys--->input
-20:11:49.411  INFO  tests.TestBase - Test data --> email: d@gmail.com & password: DariaM1991!
-20:11:49.459  INFO  manager.WDListener - Before click element--->buttontext = Login
-20:11:49.826  INFO  tests.TestBase - Assert check is element Button 'Sign out' present
-20:11:49.826  INFO  manager.TestNGListener - Test success loginSuccessWithDataProvider
-20:11:49.830  INFO  manager.TestNGListener - *******************End test  ----> Sun Mar 09 20:11:49 IST 2025
-20:22:15.707  INFO  manager.ApplicationManager - All tests run in Chrom Browser
-20:22:17.017  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
-20:22:17.025  INFO  manager.TestNGListener - ***********************Start test  ----> Sun Mar 09 20:22:17 IST 2025
-20:22:17.043  INFO  tests.TestBase - Name of method--->loginSuccessModelWithDataProvider
-20:22:22.074  INFO  tests.TestBase - Before method finished logout
-20:22:22.075  INFO  manager.TestNGListener - Start test loginSuccessModelWithDataProvider
-20:22:22.077  INFO  tests.TestBase - Test data-->User{email='d@gmail.com', password='DariaM1991!'}
-20:22:22.122  INFO  manager.WDListener - Before click element--->atext = LOGIN
-20:22:22.187  INFO  manager.WDListener - After click element--->atext = LOGIN
-20:22:22.187  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
-20:22:22.217  INFO  manager.WDListener - Before click element--->inputtext = 
-20:22:22.273  INFO  manager.WDListener - After click element--->inputtext = 
-20:22:22.319  INFO  manager.WDListener - sendKeys--->input
-20:22:22.344  INFO  manager.WDListener - sendKeys--->input
-20:22:22.375  INFO  manager.WDListener - sendKeys--->input
-20:22:22.405  INFO  manager.WDListener - Before click element--->inputtext = 
-20:22:22.451  INFO  manager.WDListener - After click element--->inputtext = 
-20:22:22.487  INFO  manager.WDListener - sendKeys--->input
-20:22:22.508  INFO  manager.WDListener - sendKeys--->input
-20:22:22.534  INFO  manager.WDListener - sendKeys--->input
-20:22:22.559  INFO  manager.WDListener - Before click element--->buttontext = Login
-20:22:23.569  INFO  manager.TestNGListener - Test success loginSuccessModelWithDataProvider
-20:22:23.570  INFO  tests.TestBase - Name of method--->loginSuccessModelWithDataProvider
-20:22:23.627  INFO  manager.WDListener - Before click element--->buttontext = Sign Out
-20:22:23.673  INFO  tests.TestBase - Before method finished logout
-20:22:23.674  INFO  manager.TestNGListener - Start test loginSuccessModelWithDataProvider
-20:22:23.675  INFO  tests.TestBase - Test data-->User{email='d@gmail.com', password='DariaM1991!'}
-20:22:23.713  INFO  manager.WDListener - Before click element--->atext = LOGIN
-20:22:23.767  INFO  manager.WDListener - After click element--->atext = LOGIN
-20:22:23.768  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
-20:22:23.792  INFO  manager.WDListener - Before click element--->inputtext = 
-20:22:23.852  INFO  manager.WDListener - After click element--->inputtext = 
-20:22:23.897  INFO  manager.WDListener - sendKeys--->input
-20:22:23.923  INFO  manager.WDListener - sendKeys--->input
-20:22:23.953  INFO  manager.WDListener - sendKeys--->input
-20:22:23.982  INFO  manager.WDListener - Before click element--->inputtext = 
-20:22:24.041  INFO  manager.WDListener - After click element--->inputtext = 
-20:22:24.084  INFO  manager.WDListener - sendKeys--->input
-20:22:24.108  INFO  manager.WDListener - sendKeys--->input
-20:22:24.138  INFO  manager.WDListener - sendKeys--->input
-20:22:24.165  INFO  manager.WDListener - Before click element--->buttontext = Login
-20:22:24.476  INFO  manager.TestNGListener - Test success loginSuccessModelWithDataProvider
-20:22:24.477  INFO  tests.TestBase - Name of method--->loginSuccessModelWithDataProvider
-20:22:24.511  INFO  manager.WDListener - Before click element--->buttontext = Sign Out
-20:22:24.553  INFO  tests.TestBase - Before method finished logout
-20:22:24.554  INFO  manager.TestNGListener - Start test loginSuccessModelWithDataProvider
-20:22:24.554  INFO  tests.TestBase - Test data-->User{email='d@gmail.com', password='DariaM1991!'}
-20:22:24.579  INFO  manager.WDListener - Before click element--->atext = LOGIN
-20:22:24.636  INFO  manager.WDListener - After click element--->atext = LOGIN
-20:22:24.636  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
-20:22:24.662  INFO  manager.WDListener - Before click element--->inputtext = 
-20:22:24.714  INFO  manager.WDListener - After click element--->inputtext = 
-20:22:24.760  INFO  manager.WDListener - sendKeys--->input
-20:22:24.786  INFO  manager.WDListener - sendKeys--->input
-20:22:24.820  INFO  manager.WDListener - sendKeys--->input
-20:22:24.862  INFO  manager.WDListener - Before click element--->inputtext = 
-20:22:24.921  INFO  manager.WDListener - After click element--->inputtext = 
-20:22:24.962  INFO  manager.WDListener - sendKeys--->input
-20:22:24.983  INFO  manager.WDListener - sendKeys--->input
-20:22:25.012  INFO  manager.WDListener - sendKeys--->input
-20:22:25.040  INFO  manager.WDListener - Before click element--->buttontext = Login
-20:22:25.352  INFO  manager.TestNGListener - Test success loginSuccessModelWithDataProvider
-20:22:25.356  INFO  manager.TestNGListener - *******************End test  ----> Sun Mar 09 20:22:25 IST 2025
+20:37:25.465  INFO  manager.ApplicationManager - All tests run in Chrom Browser
+20:37:26.173  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+20:37:26.181  INFO  manager.TestNGListener - ***********************Start test  ----> Mon Mar 10 20:37:26 IST 2025
+20:37:26.200  INFO  tests.TestBase - Name of method--->loginSuccessModelDPFromFile
+20:37:31.254  INFO  tests.TestBase - Before method finished logout
+20:37:31.255  INFO  manager.TestNGListener - Start test loginSuccessModelDPFromFile
+20:37:31.255  INFO  tests.TestBase - Test data-->User{email='d@gmail.com', password='DariaM1991!'}
+20:37:31.293  INFO  manager.WDListener - Before click element--->atext = LOGIN
+20:37:31.351  INFO  manager.WDListener - After click element--->atext = LOGIN
+20:37:31.351  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+20:37:31.383  INFO  manager.WDListener - Before click element--->inputtext = 
+20:37:31.436  INFO  manager.WDListener - After click element--->inputtext = 
+20:37:31.487  INFO  manager.WDListener - sendKeys--->input
+20:37:31.509  INFO  manager.WDListener - sendKeys--->input
+20:37:31.536  INFO  manager.WDListener - sendKeys--->input
+20:37:31.567  INFO  manager.WDListener - Before click element--->inputtext = 
+20:37:31.615  INFO  manager.WDListener - After click element--->inputtext = 
+20:37:31.654  INFO  manager.WDListener - sendKeys--->input
+20:37:31.676  INFO  manager.WDListener - sendKeys--->input
+20:37:31.701  INFO  manager.WDListener - sendKeys--->input
+20:37:31.730  INFO  manager.WDListener - Before click element--->buttontext = Login
+20:37:32.748  INFO  manager.TestNGListener - Test success loginSuccessModelDPFromFile
+20:37:32.749  INFO  tests.TestBase - Name of method--->loginSuccessModelDPFromFile
+20:37:32.813  INFO  manager.WDListener - Before click element--->buttontext = Sign Out
+20:37:32.861  INFO  tests.TestBase - Before method finished logout
+20:37:32.862  INFO  manager.TestNGListener - Start test loginSuccessModelDPFromFile
+20:37:32.862  INFO  tests.TestBase - Test data-->User{email='masha91@gmail.com', password='MashaM1992!'}
+20:37:32.901  INFO  manager.WDListener - Before click element--->atext = LOGIN
+20:37:32.962  INFO  manager.WDListener - After click element--->atext = LOGIN
+20:37:32.962  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+20:37:32.988  INFO  manager.WDListener - Before click element--->inputtext = 
+20:37:33.042  INFO  manager.WDListener - After click element--->inputtext = 
+20:37:33.085  INFO  manager.WDListener - sendKeys--->input
+20:37:33.109  INFO  manager.WDListener - sendKeys--->input
+20:37:33.148  INFO  manager.WDListener - sendKeys--->input
+20:37:33.178  INFO  manager.WDListener - Before click element--->inputtext = 
+20:37:33.237  INFO  manager.WDListener - After click element--->inputtext = 
+20:37:33.276  INFO  manager.WDListener - sendKeys--->input
+20:37:33.299  INFO  manager.WDListener - sendKeys--->input
+20:37:33.330  INFO  manager.WDListener - sendKeys--->input
+20:37:33.358  INFO  manager.WDListener - Before click element--->buttontext = Login
+20:37:33.662  INFO  manager.TestNGListener - Test success loginSuccessModelDPFromFile
+20:37:33.663  INFO  tests.TestBase - Name of method--->loginSuccessModelDPFromFile
+20:37:33.700  INFO  manager.WDListener - Before click element--->buttontext = Sign Out
+20:37:33.744  INFO  tests.TestBase - Before method finished logout
+20:37:33.745  INFO  manager.TestNGListener - Start test loginSuccessModelDPFromFile
+20:37:33.745  INFO  tests.TestBase - Test data-->User{email='pasha93@gmail.com', password='PashaM1993!'}
+20:37:33.776  INFO  manager.WDListener - Before click element--->atext = LOGIN
+20:37:33.836  INFO  manager.WDListener - After click element--->atext = LOGIN
+20:37:33.836  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+20:37:33.865  INFO  manager.WDListener - Before click element--->inputtext = 
+20:37:33.929  INFO  manager.WDListener - After click element--->inputtext = 
+20:37:33.973  INFO  manager.WDListener - sendKeys--->input
+20:37:33.996  INFO  manager.WDListener - sendKeys--->input
+20:37:34.035  INFO  manager.WDListener - sendKeys--->input
+20:37:34.066  INFO  manager.WDListener - Before click element--->inputtext = 
+20:37:34.129  INFO  manager.WDListener - After click element--->inputtext = 
+20:37:34.172  INFO  manager.WDListener - sendKeys--->input
+20:37:34.209  INFO  manager.WDListener - sendKeys--->input
+20:37:34.242  INFO  manager.WDListener - sendKeys--->input
+20:37:34.271  INFO  manager.WDListener - Before click element--->buttontext = Login
+20:37:34.576  INFO  manager.TestNGListener - Test success loginSuccessModelDPFromFile
+20:37:34.579  INFO  manager.TestNGListener - *******************End test  ----> Mon Mar 10 20:37:34 IST 2025

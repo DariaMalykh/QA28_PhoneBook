@@ -61,3 +61,881 @@
 20:37:34.271  INFO  manager.WDListener - Before click element--->buttontext = Login
 20:37:34.576  INFO  manager.TestNGListener - Test success loginSuccessModelDPFromFile
 20:37:34.579  INFO  manager.TestNGListener - *******************End test  ----> Mon Mar 10 20:37:34 IST 2025
+18:00:19.916  INFO  manager.ApplicationManager - All tests run in Chrom Browser
+18:00:21.601  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+18:00:21.611  INFO  manager.TestNGListener - ***********************Start test  ----> Thu Mar 13 18:00:21 IST 2025
+18:00:21.632  INFO  tests.TestBase - Name of method--->loginSuccessWithDataProvider
+18:00:26.649  INFO  tests.TestBase - Before method finished logout
+18:00:26.650  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:00:26.651  INFO  tests.TestBase - Start test 'loginSuccess'
+18:00:26.694  INFO  manager.WDListener - Before click element--->atext = LOGIN
+18:00:26.768  INFO  manager.WDListener - After click element--->atext = LOGIN
+18:00:26.768  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+18:00:26.805  INFO  manager.WDListener - Before click element--->inputtext = 
+18:00:26.861  INFO  manager.WDListener - After click element--->inputtext = 
+18:00:26.911  INFO  manager.WDListener - sendKeys--->input
+18:00:26.939  INFO  manager.WDListener - sendKeys--->input
+18:00:26.973  INFO  manager.WDListener - sendKeys--->input
+18:00:26.973  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
+18:00:27.006  INFO  manager.WDListener - Before click element--->inputtext = 
+18:00:27.058  INFO  manager.WDListener - After click element--->inputtext = 
+18:00:27.104  INFO  manager.WDListener - sendKeys--->input
+18:00:27.126  INFO  manager.WDListener - sendKeys--->input
+18:00:27.167  INFO  manager.WDListener - sendKeys--->input
+18:00:27.168  INFO  tests.TestBase - Test data --> email: d@gmail.com & password: DariaM1991!DariaM1991!
+18:00:27.197  INFO  manager.WDListener - Before click element--->buttontext = Login
+18:00:28.366  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:00:28.367  INFO  tests.TestBase - Name of method--->loginSuccessWithDataProvider
+18:00:28.385  INFO  manager.WDListener - Huston we have a problem!
+18:00:28.386  INFO  manager.WDListener - Object target--->ChromeDriver: chrome on windows (12236d44051b6e2690adb1b67faafbb4)
+18:00:28.386  INFO  manager.WDListener - ******************************************
+18:00:28.387  INFO  manager.WDListener - Method name--->findElements
+18:00:28.388  INFO  manager.WDListener - ******************************************
+18:00:28.390  INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=134.0.6998.36): Wrong email or password
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12236d44051b6e2690adb1b67faafbb4, findElements {using=xpath, value=//button[text() = 'Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\u6o00\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65283}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65283/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12236d44051b6e2690adb1b67faafbb4
+18:00:28.391  INFO  manager.WDListener - ******************************************
+18:00:28.391  INFO  manager.WDListener - Screen src/test/screenshots/screen_1749.png
+18:00:28.734  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:00:28.735  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:00:28.736  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:00:28.736  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:00:28.742  INFO  manager.TestNGListener - *******************End test  ----> Thu Mar 13 18:00:28 IST 2025
+18:01:35.655  INFO  manager.ApplicationManager - All tests run in Chrom Browser
+18:01:36.836  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+18:01:36.844  INFO  manager.TestNGListener - ***********************Start test  ----> Thu Mar 13 18:01:36 IST 2025
+18:01:36.861  INFO  tests.TestBase - Name of method--->loginSuccessWithDataProvider
+18:01:41.880  INFO  tests.TestBase - Before method finished logout
+18:01:41.881  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:01:41.882  INFO  tests.TestBase - Start test 'loginSuccess'
+18:01:41.924  INFO  manager.WDListener - Before click element--->atext = LOGIN
+18:01:41.987  INFO  manager.WDListener - After click element--->atext = LOGIN
+18:01:41.988  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+18:01:42.022  INFO  manager.WDListener - Before click element--->inputtext = 
+18:01:42.087  INFO  manager.WDListener - After click element--->inputtext = 
+18:01:42.132  INFO  manager.WDListener - sendKeys--->input
+18:01:42.156  INFO  manager.WDListener - sendKeys--->input
+18:01:42.186  INFO  manager.WDListener - sendKeys--->input
+18:01:42.187  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
+18:01:42.213  INFO  manager.WDListener - Before click element--->inputtext = 
+18:01:42.259  INFO  manager.WDListener - After click element--->inputtext = 
+18:01:42.293  INFO  manager.WDListener - sendKeys--->input
+18:01:42.313  INFO  manager.WDListener - sendKeys--->input
+18:01:42.350  INFO  manager.WDListener - sendKeys--->input
+18:01:42.350  INFO  tests.TestBase - Test data --> email: d@gmail.com & password: DariaM1991!DariaM1991!
+18:01:42.375  INFO  manager.WDListener - Before click element--->buttontext = Login
+18:01:43.485  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:01:43.486  INFO  tests.TestBase - Name of method--->loginSuccessWithDataProvider
+18:01:43.494  INFO  manager.WDListener - Huston we have a problem!
+18:01:43.495  INFO  manager.WDListener - Object target--->ChromeDriver: chrome on windows (c2dfe951113b033856e1bde9966038e0)
+18:01:43.495  INFO  manager.WDListener - ******************************************
+18:01:43.495  INFO  manager.WDListener - Method name--->findElements
+18:01:43.495  INFO  manager.WDListener - ******************************************
+18:01:43.497  INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=134.0.6998.36): Wrong email or password
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c2dfe951113b033856e1bde9966038e0, findElements {using=xpath, value=//button[text() = 'Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\u6o00\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65456}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65456/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2dfe951113b033856e1bde9966038e0
+18:01:43.500  INFO  manager.WDListener - ******************************************
+18:01:43.501  INFO  manager.WDListener - Screen src/test/screenshots/screen_1174.png
+18:01:43.764  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:01:43.764  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:01:43.765  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:01:43.765  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:01:43.772  INFO  manager.TestNGListener - *******************End test  ----> Thu Mar 13 18:01:43 IST 2025
+18:02:50.720  INFO  manager.ApplicationManager - All tests run in Chrom Browser
+18:02:52.149  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+18:02:52.156  INFO  manager.TestNGListener - ***********************Start test  ----> Thu Mar 13 18:02:52 IST 2025
+18:02:52.173  INFO  tests.TestBase - Name of method--->loginSuccessWithDataProvider
+18:02:57.188  INFO  tests.TestBase - Before method finished logout
+18:02:57.189  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:02:57.190  INFO  tests.TestBase - Start test 'loginSuccess'
+18:02:57.231  INFO  manager.WDListener - Before click element--->atext = LOGIN
+18:02:57.295  INFO  manager.WDListener - After click element--->atext = LOGIN
+18:02:57.296  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+18:02:57.331  INFO  manager.WDListener - Before click element--->inputtext = 
+18:02:57.387  INFO  manager.WDListener - After click element--->inputtext = 
+18:02:57.437  INFO  manager.WDListener - sendKeys--->input
+18:02:57.464  INFO  manager.WDListener - sendKeys--->input
+18:02:57.495  INFO  manager.WDListener - sendKeys--->input
+18:02:57.496  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
+18:02:57.528  INFO  manager.WDListener - Before click element--->inputtext = 
+18:02:57.576  INFO  manager.WDListener - After click element--->inputtext = 
+18:02:57.610  INFO  manager.WDListener - sendKeys--->input
+18:02:57.632  INFO  manager.WDListener - sendKeys--->input
+18:02:57.670  INFO  manager.WDListener - sendKeys--->input
+18:02:57.671  INFO  tests.TestBase - Test data --> email: d@gmail.com & password: DariaM1991!DariaM1991!
+18:02:57.699  INFO  manager.WDListener - Before click element--->buttontext = Login
+18:02:58.823  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:02:58.824  INFO  tests.TestBase - Name of method--->loginSuccessWithDataProvider
+18:02:58.832  INFO  manager.WDListener - Huston we have a problem!
+18:02:58.833  INFO  manager.WDListener - Object target--->ChromeDriver: chrome on windows (87247060a6693f74114dc558ca8e78b9)
+18:02:58.833  INFO  manager.WDListener - ******************************************
+18:02:58.833  INFO  manager.WDListener - Method name--->findElements
+18:02:58.833  INFO  manager.WDListener - ******************************************
+18:02:58.836  INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=134.0.6998.36): Wrong email or password
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87247060a6693f74114dc558ca8e78b9, findElements {using=xpath, value=//button[text() = 'Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\u6o00\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49262}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49262/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 87247060a6693f74114dc558ca8e78b9
+18:02:58.839  INFO  manager.WDListener - ******************************************
+18:02:58.841  INFO  manager.WDListener - Screen src/test/screenshots/screen_1857.png
+18:02:59.105  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:02:59.105  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:02:59.106  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:02:59.107  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:02:59.113  INFO  manager.TestNGListener - *******************End test  ----> Thu Mar 13 18:02:59 IST 2025
+18:06:34.416  INFO  manager.ApplicationManager - All tests run in Chrom Browser
+18:06:35.934  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+18:06:35.945  INFO  manager.TestNGListener - ***********************Start test  ----> Thu Mar 13 18:06:35 IST 2025
+18:06:35.962  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:06:35.965  INFO  manager.TestNGListener - *******************End test  ----> Thu Mar 13 18:06:35 IST 2025
+18:08:13.855  INFO  manager.ApplicationManager - All tests run in Chrom Browser
+18:08:15.339  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+18:08:15.348  INFO  manager.TestNGListener - ***********************Start test  ----> Thu Mar 13 18:08:15 IST 2025
+18:08:15.373  INFO  tests.TestBase - Name of method--->loginSuccessModelDPFromFile
+18:08:20.417  INFO  tests.TestBase - Before method finished logout
+18:08:20.418  INFO  manager.TestNGListener - Start test loginSuccessModelDPFromFile
+18:08:20.418  INFO  tests.TestBase - Test data-->User{email='d@gmail.com', password='DariaM1991!'}
+18:08:20.465  INFO  manager.WDListener - Before click element--->atext = LOGIN
+18:08:20.533  INFO  manager.WDListener - After click element--->atext = LOGIN
+18:08:20.533  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+18:08:20.570  INFO  manager.WDListener - Before click element--->inputtext = 
+18:08:20.629  INFO  manager.WDListener - After click element--->inputtext = 
+18:08:20.684  INFO  manager.WDListener - sendKeys--->input
+18:08:20.715  INFO  manager.WDListener - sendKeys--->input
+18:08:20.745  INFO  manager.WDListener - sendKeys--->input
+18:08:20.774  INFO  manager.WDListener - Before click element--->inputtext = 
+18:08:20.821  INFO  manager.WDListener - After click element--->inputtext = 
+18:08:20.859  INFO  manager.WDListener - sendKeys--->input
+18:08:20.883  INFO  manager.WDListener - sendKeys--->input
+18:08:20.916  INFO  manager.WDListener - sendKeys--->input
+18:08:20.950  INFO  manager.WDListener - Before click element--->buttontext = Login
+18:08:21.987  INFO  manager.TestNGListener - Test success loginSuccessModelDPFromFile
+18:08:21.989  INFO  tests.TestBase - Name of method--->loginSuccessModelDPFromFile
+18:08:22.053  INFO  manager.WDListener - Before click element--->buttontext = Sign Out
+18:08:22.119  INFO  tests.TestBase - Before method finished logout
+18:08:22.120  INFO  manager.TestNGListener - Start test loginSuccessModelDPFromFile
+18:08:22.121  INFO  tests.TestBase - Test data-->User{email='masha91@gmail.com', password='MashaM1992!'}
+18:08:22.155  INFO  manager.WDListener - Before click element--->atext = LOGIN
+18:08:22.212  INFO  manager.WDListener - After click element--->atext = LOGIN
+18:08:22.212  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+18:08:22.240  INFO  manager.WDListener - Before click element--->inputtext = 
+18:08:22.310  INFO  manager.WDListener - After click element--->inputtext = 
+18:08:22.361  INFO  manager.WDListener - sendKeys--->input
+18:08:22.391  INFO  manager.WDListener - sendKeys--->input
+18:08:22.434  INFO  manager.WDListener - sendKeys--->input
+18:08:22.466  INFO  manager.WDListener - Before click element--->inputtext = 
+18:08:22.539  INFO  manager.WDListener - After click element--->inputtext = 
+18:08:22.595  INFO  manager.WDListener - sendKeys--->input
+18:08:22.622  INFO  manager.WDListener - sendKeys--->input
+18:08:22.664  INFO  manager.WDListener - sendKeys--->input
+18:08:22.696  INFO  manager.WDListener - Before click element--->buttontext = Login
+18:08:23.011  INFO  manager.TestNGListener - Test success loginSuccessModelDPFromFile
+18:08:23.011  INFO  tests.TestBase - Name of method--->loginSuccessModelDPFromFile
+18:08:23.058  INFO  manager.WDListener - Before click element--->buttontext = Sign Out
+18:08:23.118  INFO  tests.TestBase - Before method finished logout
+18:08:23.120  INFO  manager.TestNGListener - Start test loginSuccessModelDPFromFile
+18:08:23.120  INFO  tests.TestBase - Test data-->User{email='pasha93@gmail.com', password='PashaM1993!'}
+18:08:23.153  INFO  manager.WDListener - Before click element--->atext = LOGIN
+18:08:23.205  INFO  manager.WDListener - After click element--->atext = LOGIN
+18:08:23.206  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+18:08:23.234  INFO  manager.WDListener - Before click element--->inputtext = 
+18:08:23.303  INFO  manager.WDListener - After click element--->inputtext = 
+18:08:23.355  INFO  manager.WDListener - sendKeys--->input
+18:08:23.381  INFO  manager.WDListener - sendKeys--->input
+18:08:23.423  INFO  manager.WDListener - sendKeys--->input
+18:08:23.449  INFO  manager.WDListener - Before click element--->inputtext = 
+18:08:23.523  INFO  manager.WDListener - After click element--->inputtext = 
+18:08:23.573  INFO  manager.WDListener - sendKeys--->input
+18:08:23.601  INFO  manager.WDListener - sendKeys--->input
+18:08:23.643  INFO  manager.WDListener - sendKeys--->input
+18:08:23.674  INFO  manager.WDListener - Before click element--->buttontext = Login
+18:08:23.998  INFO  manager.TestNGListener - Test success loginSuccessModelDPFromFile
+18:08:24.004  INFO  manager.TestNGListener - *******************End test  ----> Thu Mar 13 18:08:24 IST 2025
+18:14:25.984  INFO  manager.ApplicationManager - All tests run in Chrom Browser
+18:14:27.499  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+18:14:27.508  INFO  manager.TestNGListener - ***********************Start test  ----> Thu Mar 13 18:14:27 IST 2025
+18:14:27.524  INFO  tests.TestBase - Name of method--->loginSuccessWithDataProvider
+18:14:32.586  INFO  tests.TestBase - Before method finished logout
+18:14:32.587  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:14:32.587  INFO  tests.TestBase - Start test 'loginSuccess'
+18:14:32.633  INFO  manager.WDListener - Before click element--->atext = LOGIN
+18:14:32.699  INFO  manager.WDListener - After click element--->atext = LOGIN
+18:14:32.699  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+18:14:32.736  INFO  manager.WDListener - Before click element--->inputtext = 
+18:14:32.795  INFO  manager.WDListener - After click element--->inputtext = 
+18:14:32.847  INFO  manager.WDListener - sendKeys--->input
+18:14:32.879  INFO  manager.WDListener - sendKeys--->input
+18:14:32.919  INFO  manager.WDListener - sendKeys--->input
+18:14:32.920  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
+18:14:32.953  INFO  manager.WDListener - Before click element--->inputtext = 
+18:14:33.007  INFO  manager.WDListener - After click element--->inputtext = 
+18:14:33.046  INFO  manager.WDListener - sendKeys--->input
+18:14:33.068  INFO  manager.WDListener - sendKeys--->input
+18:14:33.099  INFO  manager.WDListener - sendKeys--->input
+18:14:33.101  INFO  tests.TestBase - Test data --> email: d@gmail.com & password: DariaM1991!
+18:14:33.130  INFO  manager.WDListener - Before click element--->buttontext = Login
+18:14:34.171  INFO  tests.TestBase - Assert check is element Button 'Sign out' present
+18:14:34.173  INFO  manager.TestNGListener - Test success loginSuccessWithDataProvider
+18:14:34.174  INFO  tests.TestBase - Name of method--->loginSuccessWithDataProvider
+18:14:34.234  INFO  manager.WDListener - Before click element--->buttontext = Sign Out
+18:14:34.315  INFO  tests.TestBase - Before method finished logout
+18:14:34.315  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:14:34.316  INFO  tests.TestBase - Start test 'loginSuccess'
+18:14:34.355  INFO  manager.WDListener - Before click element--->atext = LOGIN
+18:14:34.417  INFO  manager.WDListener - After click element--->atext = LOGIN
+18:14:34.417  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+18:14:34.452  INFO  manager.WDListener - Before click element--->inputtext = 
+18:14:34.527  INFO  manager.WDListener - After click element--->inputtext = 
+18:14:34.584  INFO  manager.WDListener - sendKeys--->input
+18:14:34.617  INFO  manager.WDListener - sendKeys--->input
+18:14:34.667  INFO  manager.WDListener - sendKeys--->input
+18:14:34.668  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
+18:14:34.702  INFO  manager.WDListener - Before click element--->inputtext = 
+18:14:34.778  INFO  manager.WDListener - After click element--->inputtext = 
+18:14:34.828  INFO  manager.WDListener - sendKeys--->input
+18:14:34.857  INFO  manager.WDListener - sendKeys--->input
+18:14:34.893  INFO  manager.WDListener - sendKeys--->input
+18:14:34.894  INFO  tests.TestBase - Test data --> email: masha91@gmail.com & password: MashaM1992!
+18:14:34.930  INFO  manager.WDListener - Before click element--->buttontext = Login
+18:14:35.267  INFO  tests.TestBase - Assert check is element Button 'Sign out' present
+18:14:35.268  INFO  manager.TestNGListener - Test success loginSuccessWithDataProvider
+18:14:35.268  INFO  tests.TestBase - Name of method--->loginSuccessWithDataProvider
+18:14:35.312  INFO  manager.WDListener - Before click element--->buttontext = Sign Out
+18:14:35.362  INFO  tests.TestBase - Before method finished logout
+18:14:35.363  INFO  manager.TestNGListener - Start test loginSuccessWithDataProvider
+18:14:35.363  INFO  tests.TestBase - Start test 'loginSuccess'
+18:14:35.399  INFO  manager.WDListener - Before click element--->atext = LOGIN
+18:14:35.460  INFO  manager.WDListener - After click element--->atext = LOGIN
+18:14:35.460  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+18:14:35.487  INFO  manager.WDListener - Before click element--->inputtext = 
+18:14:35.565  INFO  manager.WDListener - After click element--->inputtext = 
+18:14:35.620  INFO  manager.WDListener - sendKeys--->input
+18:14:35.666  INFO  manager.WDListener - sendKeys--->input
+18:14:35.711  INFO  manager.WDListener - sendKeys--->input
+18:14:35.711  INFO  manager.HelperBase - Tpe in input with  locator By.name("email"),email
+18:14:35.750  INFO  manager.WDListener - Before click element--->inputtext = 
+18:14:35.838  INFO  manager.WDListener - After click element--->inputtext = 
+18:14:35.891  INFO  manager.WDListener - sendKeys--->input
+18:14:35.930  INFO  manager.WDListener - sendKeys--->input
+18:14:35.974  INFO  manager.WDListener - sendKeys--->input
+18:14:35.974  INFO  tests.TestBase - Test data --> email: pasha93@gmail.com & password: PashaM1993!
+18:14:36.009  INFO  manager.WDListener - Before click element--->buttontext = Login
+18:14:36.336  INFO  tests.TestBase - Assert check is element Button 'Sign out' present
+18:14:36.337  INFO  manager.TestNGListener - Test success loginSuccessWithDataProvider
+18:14:36.340  INFO  manager.TestNGListener - *******************End test  ----> Thu Mar 13 18:14:36 IST 2025
+18:47:01.337  INFO  manager.ApplicationManager - All tests run in Chrom Browser
+18:47:02.561  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+18:47:02.571  INFO  manager.TestNGListener - ***********************Start test  ----> Thu Mar 13 18:47:02 IST 2025
+18:47:02.594  INFO  tests.TestBase - Name of method--->addContactSuccessAllFieldsWithDataProvider
+18:47:07.707  INFO  manager.WDListener - Before click element--->atext = LOGIN
+18:47:07.777  INFO  manager.WDListener - After click element--->atext = LOGIN
+18:47:07.777  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+18:47:07.814  INFO  manager.WDListener - Before click element--->inputtext = 
+18:47:07.878  INFO  manager.WDListener - After click element--->inputtext = 
+18:47:07.927  INFO  manager.WDListener - sendKeys--->input
+18:47:07.954  INFO  manager.WDListener - sendKeys--->input
+18:47:07.981  INFO  manager.WDListener - sendKeys--->input
+18:47:08.009  INFO  manager.WDListener - Before click element--->inputtext = 
+18:47:08.056  INFO  manager.WDListener - After click element--->inputtext = 
+18:47:08.093  INFO  manager.WDListener - sendKeys--->input
+18:47:08.115  INFO  manager.WDListener - sendKeys--->input
+18:47:08.143  INFO  manager.WDListener - sendKeys--->input
+18:47:08.168  INFO  manager.WDListener - Before click element--->buttontext = Login
+18:47:08.218  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProvider
+18:47:09.203  INFO  manager.WDListener - Before click element--->atext = ADD
+18:47:09.293  INFO  manager.WDListener - After click element--->atext = ADD
+18:47:09.331  INFO  manager.WDListener - Before click element--->inputtext = 
+18:47:09.384  INFO  manager.WDListener - After click element--->inputtext = 
+18:47:09.437  INFO  manager.WDListener - sendKeys--->input
+18:47:09.457  INFO  manager.WDListener - sendKeys--->input
+18:47:09.482  INFO  manager.WDListener - sendKeys--->input
+18:47:09.510  INFO  manager.WDListener - Before click element--->inputtext = 
+18:47:09.562  INFO  manager.WDListener - After click element--->inputtext = 
+18:47:09.597  INFO  manager.WDListener - sendKeys--->input
+18:47:09.618  INFO  manager.WDListener - sendKeys--->input
+18:47:09.643  INFO  manager.WDListener - sendKeys--->input
+18:47:09.672  INFO  manager.WDListener - Before click element--->inputtext = 
+18:47:09.721  INFO  manager.WDListener - After click element--->inputtext = 
+18:47:09.773  INFO  manager.WDListener - sendKeys--->input
+18:47:09.802  INFO  manager.WDListener - sendKeys--->input
+18:47:09.830  INFO  manager.WDListener - sendKeys--->input
+18:47:09.864  INFO  manager.WDListener - Before click element--->inputtext = 
+18:47:09.920  INFO  manager.WDListener - After click element--->inputtext = 
+18:47:09.957  INFO  manager.WDListener - sendKeys--->input
+18:47:09.974  INFO  manager.WDListener - sendKeys--->input
+18:47:10.001  INFO  manager.WDListener - sendKeys--->input
+18:47:10.026  INFO  manager.WDListener - Before click element--->inputtext = 
+18:47:10.073  INFO  manager.WDListener - After click element--->inputtext = 
+18:47:10.120  INFO  manager.WDListener - sendKeys--->input
+18:47:10.143  INFO  manager.WDListener - sendKeys--->input
+18:47:10.184  INFO  manager.WDListener - sendKeys--->input
+18:47:10.214  INFO  manager.WDListener - Before click element--->inputtext = 
+18:47:10.277  INFO  manager.WDListener - After click element--->inputtext = 
+18:47:10.310  INFO  manager.WDListener - sendKeys--->input
+18:47:10.328  INFO  manager.WDListener - sendKeys--->input
+18:47:10.353  INFO  manager.WDListener - sendKeys--->input
+18:47:10.382  INFO  manager.WDListener - Before click element--->btext = Save
+18:47:10.431  INFO  manager.WDListener - After click element--->btext = Save
+18:47:10.791  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProvider
+18:47:10.792  INFO  tests.TestBase - Name of method--->addContactSuccessAllFieldsWithDataProvider
+18:47:10.799  INFO  manager.WDListener - Huston we have a problem!
+18:47:10.800  INFO  manager.WDListener - Object target--->ChromeDriver: chrome on windows (f37711c417df81f4451c9eb94dacb89f)
+18:47:10.800  INFO  manager.WDListener - ******************************************
+18:47:10.800  INFO  manager.WDListener - Method name--->findElements
+18:47:10.800  INFO  manager.WDListener - ******************************************
+18:47:10.800  INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email not valid: должно иметь формат адреса электронной почты}
+  (Session info: chrome=134.0.6998.36): Email not valid: должно иметь формат адреса электронной почты
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f37711c417df81f4451c9eb94dacb89f, findElements {using=xpath, value=//button[text() = 'Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\u6o00\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52617}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52617/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f37711c417df81f4451c9eb94dacb89f
+18:47:10.801  INFO  manager.WDListener - ******************************************
+18:47:10.802  INFO  manager.WDListener - Screen src/test/screenshots/screen_1210.png
+18:47:11.046  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProvider
+18:47:11.047  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProvider
+18:47:11.047  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProvider
+18:47:11.049  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProvider
+18:47:11.055  INFO  manager.TestNGListener - *******************End test  ----> Thu Mar 13 18:47:11 IST 2025
+18:50:59.206  INFO  manager.ApplicationManager - All tests run in Chrom Browser
+18:51:00.549  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+18:51:00.558  INFO  manager.TestNGListener - ***********************Start test  ----> Thu Mar 13 18:51:00 IST 2025
+18:51:00.576  INFO  tests.TestBase - Name of method--->addContactSuccessAllFieldsWithDataProviderFromFile
+18:51:05.686  INFO  manager.WDListener - Before click element--->atext = LOGIN
+18:51:05.744  INFO  manager.WDListener - After click element--->atext = LOGIN
+18:51:05.745  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+18:51:05.780  INFO  manager.WDListener - Before click element--->inputtext = 
+18:51:05.843  INFO  manager.WDListener - After click element--->inputtext = 
+18:51:05.892  INFO  manager.WDListener - sendKeys--->input
+18:51:05.917  INFO  manager.WDListener - sendKeys--->input
+18:51:05.946  INFO  manager.WDListener - sendKeys--->input
+18:51:05.978  INFO  manager.WDListener - Before click element--->inputtext = 
+18:51:06.049  INFO  manager.WDListener - After click element--->inputtext = 
+18:51:06.084  INFO  manager.WDListener - sendKeys--->input
+18:51:06.103  INFO  manager.WDListener - sendKeys--->input
+18:51:06.129  INFO  manager.WDListener - sendKeys--->input
+18:51:06.153  INFO  manager.WDListener - Before click element--->buttontext = Login
+18:51:06.206  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:51:07.215  INFO  manager.WDListener - Before click element--->atext = ADD
+18:51:07.287  INFO  manager.WDListener - After click element--->atext = ADD
+18:51:07.320  INFO  manager.WDListener - Before click element--->inputtext = 
+18:51:07.369  INFO  manager.WDListener - After click element--->inputtext = 
+18:51:07.419  INFO  manager.WDListener - sendKeys--->input
+18:51:07.439  INFO  manager.WDListener - sendKeys--->input
+18:51:07.460  INFO  manager.WDListener - sendKeys--->input
+18:51:07.484  INFO  manager.WDListener - Before click element--->inputtext = 
+18:51:07.525  INFO  manager.WDListener - After click element--->inputtext = 
+18:51:07.568  INFO  manager.WDListener - sendKeys--->input
+18:51:07.592  INFO  manager.WDListener - sendKeys--->input
+18:51:07.615  INFO  manager.WDListener - sendKeys--->input
+18:51:07.657  INFO  manager.WDListener - Before click element--->inputtext = 
+18:51:07.704  INFO  manager.WDListener - After click element--->inputtext = 
+18:51:07.744  INFO  manager.WDListener - sendKeys--->input
+18:51:07.771  INFO  manager.WDListener - sendKeys--->input
+18:51:07.800  INFO  manager.WDListener - sendKeys--->input
+18:51:07.829  INFO  manager.WDListener - Before click element--->inputtext = 
+18:51:07.915  INFO  manager.WDListener - After click element--->inputtext = 
+18:51:07.957  INFO  manager.WDListener - sendKeys--->input
+18:51:07.977  INFO  manager.WDListener - sendKeys--->input
+18:51:07.997  INFO  manager.WDListener - sendKeys--->input
+18:51:08.023  INFO  manager.WDListener - Before click element--->inputtext = 
+18:51:08.070  INFO  manager.WDListener - After click element--->inputtext = 
+18:51:08.116  INFO  manager.WDListener - sendKeys--->input
+18:51:08.147  INFO  manager.WDListener - sendKeys--->input
+18:51:08.189  INFO  manager.WDListener - sendKeys--->input
+18:51:08.217  INFO  manager.WDListener - Before click element--->inputtext = 
+18:51:08.272  INFO  manager.WDListener - After click element--->inputtext = 
+18:51:08.331  INFO  manager.WDListener - sendKeys--->input
+18:51:08.350  INFO  manager.WDListener - sendKeys--->input
+18:51:08.378  INFO  manager.WDListener - sendKeys--->input
+18:51:08.410  INFO  manager.WDListener - Before click element--->btext = Save
+18:51:08.460  INFO  manager.WDListener - After click element--->btext = Save
+18:51:08.828  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:51:08.828  INFO  tests.TestBase - Name of method--->addContactSuccessAllFieldsWithDataProviderFromFile
+18:51:08.833  INFO  manager.WDListener - Huston we have a problem!
+18:51:08.834  INFO  manager.WDListener - Object target--->ChromeDriver: chrome on windows (ce614832a7492b27ffdf6420b4dac773)
+18:51:08.834  INFO  manager.WDListener - ******************************************
+18:51:08.835  INFO  manager.WDListener - Method name--->findElements
+18:51:08.835  INFO  manager.WDListener - ******************************************
+18:51:08.835  INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email not valid: должно иметь формат адреса электронной почты}
+  (Session info: chrome=134.0.6998.36): Email not valid: должно иметь формат адреса электронной почты
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce614832a7492b27ffdf6420b4dac773, findElements {using=xpath, value=//button[text() = 'Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\u6o00\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52893}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52893/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce614832a7492b27ffdf6420b4dac773
+18:51:08.839  INFO  manager.WDListener - ******************************************
+18:51:08.840  INFO  manager.WDListener - Screen src/test/screenshots/screen_1337.png
+18:51:09.083  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:51:09.084  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:51:09.088  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:51:09.089  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:51:09.094  INFO  manager.TestNGListener - *******************End test  ----> Thu Mar 13 18:51:09 IST 2025
+18:55:30.979  INFO  manager.ApplicationManager - All tests run in Chrom Browser
+18:55:32.248  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+18:55:32.255  INFO  manager.TestNGListener - ***********************Start test  ----> Thu Mar 13 18:55:32 IST 2025
+18:55:32.273  INFO  tests.TestBase - Name of method--->addContactSuccessAllFieldsWithDataProviderFromFile
+18:55:37.385  INFO  manager.WDListener - Before click element--->atext = LOGIN
+18:55:37.451  INFO  manager.WDListener - After click element--->atext = LOGIN
+18:55:37.451  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+18:55:37.483  INFO  manager.WDListener - Before click element--->inputtext = 
+18:55:37.541  INFO  manager.WDListener - After click element--->inputtext = 
+18:55:37.596  INFO  manager.WDListener - sendKeys--->input
+18:55:37.621  INFO  manager.WDListener - sendKeys--->input
+18:55:37.656  INFO  manager.WDListener - sendKeys--->input
+18:55:37.691  INFO  manager.WDListener - Before click element--->inputtext = 
+18:55:37.747  INFO  manager.WDListener - After click element--->inputtext = 
+18:55:37.785  INFO  manager.WDListener - sendKeys--->input
+18:55:37.805  INFO  manager.WDListener - sendKeys--->input
+18:55:37.833  INFO  manager.WDListener - sendKeys--->input
+18:55:37.859  INFO  manager.WDListener - Before click element--->buttontext = Login
+18:55:37.916  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:55:38.923  INFO  manager.WDListener - Before click element--->atext = ADD
+18:55:38.983  INFO  manager.WDListener - After click element--->atext = ADD
+18:55:39.019  INFO  manager.WDListener - Before click element--->inputtext = 
+18:55:39.070  INFO  manager.WDListener - After click element--->inputtext = 
+18:55:39.119  INFO  manager.WDListener - sendKeys--->input
+18:55:39.138  INFO  manager.WDListener - sendKeys--->input
+18:55:39.163  INFO  manager.WDListener - sendKeys--->input
+18:55:39.192  INFO  manager.WDListener - Before click element--->inputtext = 
+18:55:39.235  INFO  manager.WDListener - After click element--->inputtext = 
+18:55:39.268  INFO  manager.WDListener - sendKeys--->input
+18:55:39.289  INFO  manager.WDListener - sendKeys--->input
+18:55:39.311  INFO  manager.WDListener - sendKeys--->input
+18:55:39.333  INFO  manager.WDListener - Before click element--->inputtext = 
+18:55:39.384  INFO  manager.WDListener - After click element--->inputtext = 
+18:55:39.438  INFO  manager.WDListener - sendKeys--->input
+18:55:39.463  INFO  manager.WDListener - sendKeys--->input
+18:55:39.506  INFO  manager.WDListener - sendKeys--->input
+18:55:39.538  INFO  manager.WDListener - Before click element--->inputtext = 
+18:55:39.600  INFO  manager.WDListener - After click element--->inputtext = 
+18:55:39.651  INFO  manager.WDListener - sendKeys--->input
+18:55:39.675  INFO  manager.WDListener - sendKeys--->input
+18:55:39.710  INFO  manager.WDListener - sendKeys--->input
+18:55:39.754  INFO  manager.WDListener - Before click element--->inputtext = 
+18:55:39.814  INFO  manager.WDListener - After click element--->inputtext = 
+18:55:39.870  INFO  manager.WDListener - sendKeys--->input
+18:55:39.897  INFO  manager.WDListener - sendKeys--->input
+18:55:39.952  INFO  manager.WDListener - sendKeys--->input
+18:55:39.988  INFO  manager.WDListener - Before click element--->inputtext = 
+18:55:40.061  INFO  manager.WDListener - After click element--->inputtext = 
+18:55:40.124  INFO  manager.WDListener - sendKeys--->input
+18:55:40.148  INFO  manager.WDListener - sendKeys--->input
+18:55:40.193  INFO  manager.WDListener - sendKeys--->input
+18:55:40.231  INFO  manager.WDListener - Before click element--->btext = Save
+18:55:40.283  INFO  manager.WDListener - After click element--->btext = Save
+18:55:40.597  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:55:40.599  INFO  tests.TestBase - Name of method--->addContactSuccessAllFieldsWithDataProviderFromFile
+18:55:40.606  INFO  manager.WDListener - Huston we have a problem!
+18:55:40.608  INFO  manager.WDListener - Object target--->ChromeDriver: chrome on windows (9b7ad561f952aabad804ac298f8c7261)
+18:55:40.609  INFO  manager.WDListener - ******************************************
+18:55:40.609  INFO  manager.WDListener - Method name--->findElements
+18:55:40.609  INFO  manager.WDListener - ******************************************
+18:55:40.609  INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email not valid: должно иметь формат адреса электронной почты}
+  (Session info: chrome=134.0.6998.36): Email not valid: должно иметь формат адреса электронной почты
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b7ad561f952aabad804ac298f8c7261, findElements {using=xpath, value=//button[text() = 'Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\u6o00\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53160/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b7ad561f952aabad804ac298f8c7261
+18:55:40.610  INFO  manager.WDListener - ******************************************
+18:55:40.613  INFO  manager.WDListener - Screen src/test/screenshots/screen_1814.png
+18:55:40.906  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:55:40.910  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:55:40.912  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:55:40.913  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:55:40.916  INFO  manager.TestNGListener - *******************End test  ----> Thu Mar 13 18:55:40 IST 2025
+18:59:23.038  INFO  manager.ApplicationManager - All tests run in Chrom Browser
+18:59:23.907  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+18:59:23.914  INFO  manager.TestNGListener - ***********************Start test  ----> Thu Mar 13 18:59:23 IST 2025
+18:59:23.934  INFO  tests.TestBase - Name of method--->addContactSuccessAllFieldsWithDataProviderFromFile
+18:59:29.023  INFO  manager.WDListener - Before click element--->atext = LOGIN
+18:59:29.095  INFO  manager.WDListener - After click element--->atext = LOGIN
+18:59:29.095  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+18:59:29.136  INFO  manager.WDListener - Before click element--->inputtext = 
+18:59:29.194  INFO  manager.WDListener - After click element--->inputtext = 
+18:59:29.242  INFO  manager.WDListener - sendKeys--->input
+18:59:29.266  INFO  manager.WDListener - sendKeys--->input
+18:59:29.295  INFO  manager.WDListener - sendKeys--->input
+18:59:29.327  INFO  manager.WDListener - Before click element--->inputtext = 
+18:59:29.371  INFO  manager.WDListener - After click element--->inputtext = 
+18:59:29.406  INFO  manager.WDListener - sendKeys--->input
+18:59:29.426  INFO  manager.WDListener - sendKeys--->input
+18:59:29.452  INFO  manager.WDListener - sendKeys--->input
+18:59:29.483  INFO  manager.WDListener - Before click element--->buttontext = Login
+18:59:29.534  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:59:30.567  INFO  manager.WDListener - Before click element--->atext = ADD
+18:59:30.632  INFO  manager.WDListener - After click element--->atext = ADD
+18:59:30.667  INFO  manager.WDListener - Before click element--->inputtext = 
+18:59:30.724  INFO  manager.WDListener - After click element--->inputtext = 
+18:59:30.785  INFO  manager.WDListener - sendKeys--->input
+18:59:30.815  INFO  manager.WDListener - sendKeys--->input
+18:59:30.841  INFO  manager.WDListener - sendKeys--->input
+18:59:30.868  INFO  manager.WDListener - Before click element--->inputtext = 
+18:59:30.920  INFO  manager.WDListener - After click element--->inputtext = 
+18:59:30.966  INFO  manager.WDListener - sendKeys--->input
+18:59:30.991  INFO  manager.WDListener - sendKeys--->input
+18:59:31.019  INFO  manager.WDListener - sendKeys--->input
+18:59:31.052  INFO  manager.WDListener - Before click element--->inputtext = 
+18:59:31.117  INFO  manager.WDListener - After click element--->inputtext = 
+18:59:31.169  INFO  manager.WDListener - sendKeys--->input
+18:59:31.198  INFO  manager.WDListener - sendKeys--->input
+18:59:31.242  INFO  manager.WDListener - sendKeys--->input
+18:59:31.278  INFO  manager.WDListener - Before click element--->inputtext = 
+18:59:31.331  INFO  manager.WDListener - After click element--->inputtext = 
+18:59:31.386  INFO  manager.WDListener - sendKeys--->input
+18:59:31.414  INFO  manager.WDListener - sendKeys--->input
+18:59:31.439  INFO  manager.WDListener - sendKeys--->input
+18:59:31.479  INFO  manager.WDListener - Before click element--->inputtext = 
+18:59:31.543  INFO  manager.WDListener - After click element--->inputtext = 
+18:59:31.588  INFO  manager.WDListener - sendKeys--->input
+18:59:31.616  INFO  manager.WDListener - sendKeys--->input
+18:59:31.659  INFO  manager.WDListener - sendKeys--->input
+18:59:31.694  INFO  manager.WDListener - Before click element--->inputtext = 
+18:59:31.749  INFO  manager.WDListener - After click element--->inputtext = 
+18:59:31.796  INFO  manager.WDListener - sendKeys--->input
+18:59:31.816  INFO  manager.WDListener - sendKeys--->input
+18:59:31.845  INFO  manager.WDListener - sendKeys--->input
+18:59:31.877  INFO  manager.WDListener - Before click element--->btext = Save
+18:59:31.927  INFO  manager.WDListener - After click element--->btext = Save
+18:59:32.242  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:59:32.243  INFO  tests.TestBase - Name of method--->addContactSuccessAllFieldsWithDataProviderFromFile
+18:59:32.251  INFO  manager.WDListener - Huston we have a problem!
+18:59:32.252  INFO  manager.WDListener - Object target--->ChromeDriver: chrome on windows (9f98879a24f5b7365bd08efcabb49569)
+18:59:32.252  INFO  manager.WDListener - ******************************************
+18:59:32.252  INFO  manager.WDListener - Method name--->findElements
+18:59:32.252  INFO  manager.WDListener - ******************************************
+18:59:32.254  INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email not valid: должно иметь формат адреса электронной почты}
+  (Session info: chrome=134.0.6998.36): Email not valid: должно иметь формат адреса электронной почты
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f98879a24f5b7365bd08efcabb49569, findElements {using=xpath, value=//button[text() = 'Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\u6o00\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53399/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f98879a24f5b7365bd08efcabb49569
+18:59:32.256  INFO  manager.WDListener - ******************************************
+18:59:32.259  INFO  manager.WDListener - Screen src/test/screenshots/screen_1513.png
+18:59:32.548  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:59:32.548  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:59:32.553  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:59:32.555  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+18:59:32.557  INFO  manager.TestNGListener - *******************End test  ----> Thu Mar 13 18:59:32 IST 2025
+19:00:23.463  INFO  manager.ApplicationManager - All tests run in Chrom Browser
+19:00:24.953  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+19:00:24.961  INFO  manager.TestNGListener - ***********************Start test  ----> Thu Mar 13 19:00:24 IST 2025
+19:00:24.979  INFO  tests.TestBase - Name of method--->addContactSuccessAllFieldsWithDataProviderFromFile
+19:00:30.090  INFO  manager.WDListener - Before click element--->atext = LOGIN
+19:00:30.147  INFO  manager.WDListener - After click element--->atext = LOGIN
+19:00:30.147  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+19:00:30.180  INFO  manager.WDListener - Before click element--->inputtext = 
+19:00:30.230  INFO  manager.WDListener - After click element--->inputtext = 
+19:00:30.281  INFO  manager.WDListener - sendKeys--->input
+19:00:30.305  INFO  manager.WDListener - sendKeys--->input
+19:00:30.334  INFO  manager.WDListener - sendKeys--->input
+19:00:30.366  INFO  manager.WDListener - Before click element--->inputtext = 
+19:00:30.411  INFO  manager.WDListener - After click element--->inputtext = 
+19:00:30.446  INFO  manager.WDListener - sendKeys--->input
+19:00:30.466  INFO  manager.WDListener - sendKeys--->input
+19:00:30.493  INFO  manager.WDListener - sendKeys--->input
+19:00:30.518  INFO  manager.WDListener - Before click element--->buttontext = Login
+19:00:30.568  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+19:00:31.565  INFO  manager.WDListener - Before click element--->atext = ADD
+19:00:31.631  INFO  manager.WDListener - After click element--->atext = ADD
+19:00:31.660  INFO  manager.WDListener - Before click element--->inputtext = 
+19:00:31.714  INFO  manager.WDListener - After click element--->inputtext = 
+19:00:31.768  INFO  manager.WDListener - sendKeys--->input
+19:00:31.790  INFO  manager.WDListener - sendKeys--->input
+19:00:31.820  INFO  manager.WDListener - sendKeys--->input
+19:00:31.848  INFO  manager.WDListener - Before click element--->inputtext = 
+19:00:31.894  INFO  manager.WDListener - After click element--->inputtext = 
+19:00:31.934  INFO  manager.WDListener - sendKeys--->input
+19:00:31.955  INFO  manager.WDListener - sendKeys--->input
+19:00:31.976  INFO  manager.WDListener - sendKeys--->input
+19:00:32.000  INFO  manager.WDListener - Before click element--->inputtext = 
+19:00:32.058  INFO  manager.WDListener - After click element--->inputtext = 
+19:00:32.096  INFO  manager.WDListener - sendKeys--->input
+19:00:32.119  INFO  manager.WDListener - sendKeys--->input
+19:00:32.149  INFO  manager.WDListener - sendKeys--->input
+19:00:32.175  INFO  manager.WDListener - Before click element--->inputtext = 
+19:00:32.221  INFO  manager.WDListener - After click element--->inputtext = 
+19:00:32.262  INFO  manager.WDListener - sendKeys--->input
+19:00:32.284  INFO  manager.WDListener - sendKeys--->input
+19:00:32.309  INFO  manager.WDListener - sendKeys--->input
+19:00:32.334  INFO  manager.WDListener - Before click element--->inputtext = 
+19:00:32.383  INFO  manager.WDListener - After click element--->inputtext = 
+19:00:32.429  INFO  manager.WDListener - sendKeys--->input
+19:00:32.454  INFO  manager.WDListener - sendKeys--->input
+19:00:32.495  INFO  manager.WDListener - sendKeys--->input
+19:00:32.522  INFO  manager.WDListener - Before click element--->inputtext = 
+19:00:32.572  INFO  manager.WDListener - After click element--->inputtext = 
+19:00:32.612  INFO  manager.WDListener - sendKeys--->input
+19:00:32.630  INFO  manager.WDListener - sendKeys--->input
+19:00:32.671  INFO  manager.WDListener - sendKeys--->input
+19:00:32.709  INFO  manager.WDListener - Before click element--->btext = Save
+19:00:32.765  INFO  manager.WDListener - After click element--->btext = Save
+19:00:47.783  INFO  manager.WDListener - Huston we have a problem!
+19:00:47.784  INFO  manager.WDListener - Object target--->ChromeDriver: chrome on windows (a5789c20770bed615870a486880105e0)
+19:00:47.784  INFO  manager.WDListener - ******************************************
+19:00:47.784  INFO  manager.WDListener - Method name--->getScreenshotAs
+19:00:47.784  INFO  manager.WDListener - ******************************************
+19:00:47.784  INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email not valid: должно иметь формат адреса электронной почты}
+  (Session info: chrome=134.0.6998.36): Email not valid: должно иметь формат адреса электронной почты
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5789c20770bed615870a486880105e0, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\u6o00\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53484/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5789c20770bed615870a486880105e0
+19:00:47.785  INFO  manager.WDListener - ******************************************
+19:00:47.786  INFO  manager.WDListener - Screen src/test/screenshots/screen_1151.png
+19:00:48.010  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+19:00:48.011  INFO  tests.TestBase - Name of method--->addContactSuccessAllFieldsWithDataProviderFromFile
+19:00:48.028  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+19:00:48.054  INFO  manager.WDListener - Before click element--->atext = ADD
+19:00:48.125  INFO  manager.WDListener - After click element--->atext = ADD
+19:00:48.149  INFO  manager.WDListener - Before click element--->inputtext = 
+19:00:48.208  INFO  manager.WDListener - After click element--->inputtext = 
+19:00:48.262  INFO  manager.WDListener - sendKeys--->input
+19:00:48.283  INFO  manager.WDListener - sendKeys--->input
+19:00:48.307  INFO  manager.WDListener - sendKeys--->input
+19:00:48.332  INFO  manager.WDListener - Before click element--->inputtext = 
+19:00:48.376  INFO  manager.WDListener - After click element--->inputtext = 
+19:00:48.422  INFO  manager.WDListener - sendKeys--->input
+19:00:48.439  INFO  manager.WDListener - sendKeys--->input
+19:00:48.460  INFO  manager.WDListener - sendKeys--->input
+19:00:48.482  INFO  manager.WDListener - Before click element--->inputtext = 
+19:00:48.528  INFO  manager.WDListener - After click element--->inputtext = 
+19:00:48.576  INFO  manager.WDListener - sendKeys--->input
+19:00:48.602  INFO  manager.WDListener - sendKeys--->input
+19:00:48.637  INFO  manager.WDListener - sendKeys--->input
+19:00:48.656  INFO  manager.WDListener - Before click element--->inputtext = 
+19:00:48.701  INFO  manager.WDListener - After click element--->inputtext = 
+19:00:48.752  INFO  manager.WDListener - sendKeys--->input
+19:00:48.772  INFO  manager.WDListener - sendKeys--->input
+19:00:48.795  INFO  manager.WDListener - sendKeys--->input
+19:00:48.816  INFO  manager.WDListener - Before click element--->inputtext = 
+19:00:48.867  INFO  manager.WDListener - After click element--->inputtext = 
+19:00:48.914  INFO  manager.WDListener - sendKeys--->input
+19:00:48.933  INFO  manager.WDListener - sendKeys--->input
+19:00:48.970  INFO  manager.WDListener - sendKeys--->input
+19:00:48.988  INFO  manager.WDListener - Before click element--->inputtext = 
+19:00:49.035  INFO  manager.WDListener - After click element--->inputtext = 
+19:00:49.088  INFO  manager.WDListener - sendKeys--->input
+19:00:49.110  INFO  manager.WDListener - sendKeys--->input
+19:00:49.128  INFO  manager.WDListener - sendKeys--->input
+19:00:49.151  INFO  manager.WDListener - Before click element--->btext = Save
+19:00:49.197  INFO  manager.WDListener - After click element--->btext = Save
+19:01:04.217  INFO  manager.WDListener - Huston we have a problem!
+19:01:04.217  INFO  manager.WDListener - Object target--->ChromeDriver: chrome on windows (a5789c20770bed615870a486880105e0)
+19:01:04.217  INFO  manager.WDListener - ******************************************
+19:01:04.217  INFO  manager.WDListener - Method name--->getScreenshotAs
+19:01:04.217  INFO  manager.WDListener - ******************************************
+19:01:04.218  INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email not valid: должно иметь формат адреса электронной почты}
+  (Session info: chrome=134.0.6998.36): Email not valid: должно иметь формат адреса электронной почты
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5789c20770bed615870a486880105e0, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\u6o00\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53484/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5789c20770bed615870a486880105e0
+19:01:04.218  INFO  manager.WDListener - ******************************************
+19:01:04.218  INFO  manager.WDListener - Screen src/test/screenshots/screen_1956.png
+19:01:04.411  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+19:01:04.412  INFO  tests.TestBase - Name of method--->addContactSuccessAllFieldsWithDataProviderFromFile
+19:01:04.427  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+19:01:04.450  INFO  manager.WDListener - Before click element--->atext = ADD
+19:01:04.519  INFO  manager.WDListener - After click element--->atext = ADD
+19:01:04.541  INFO  manager.WDListener - Before click element--->inputtext = 
+19:01:04.588  INFO  manager.WDListener - After click element--->inputtext = 
+19:01:04.639  INFO  manager.WDListener - sendKeys--->input
+19:01:04.658  INFO  manager.WDListener - sendKeys--->input
+19:01:04.680  INFO  manager.WDListener - sendKeys--->input
+19:01:04.697  INFO  manager.WDListener - Before click element--->inputtext = 
+19:01:04.745  INFO  manager.WDListener - After click element--->inputtext = 
+19:01:04.802  INFO  manager.WDListener - sendKeys--->input
+19:01:04.820  INFO  manager.WDListener - sendKeys--->input
+19:01:04.844  INFO  manager.WDListener - sendKeys--->input
+19:01:04.862  INFO  manager.WDListener - Before click element--->inputtext = 
+19:01:04.902  INFO  manager.WDListener - After click element--->inputtext = 
+19:01:04.947  INFO  manager.WDListener - sendKeys--->input
+19:01:04.969  INFO  manager.WDListener - sendKeys--->input
+19:01:04.994  INFO  manager.WDListener - sendKeys--->input
+19:01:05.014  INFO  manager.WDListener - Before click element--->inputtext = 
+19:01:05.063  INFO  manager.WDListener - After click element--->inputtext = 
+19:01:05.116  INFO  manager.WDListener - sendKeys--->input
+19:01:05.136  INFO  manager.WDListener - sendKeys--->input
+19:01:05.159  INFO  manager.WDListener - sendKeys--->input
+19:01:05.178  INFO  manager.WDListener - Before click element--->inputtext = 
+19:01:05.225  INFO  manager.WDListener - After click element--->inputtext = 
+19:01:05.273  INFO  manager.WDListener - sendKeys--->input
+19:01:05.293  INFO  manager.WDListener - sendKeys--->input
+19:01:05.327  INFO  manager.WDListener - sendKeys--->input
+19:01:05.353  INFO  manager.WDListener - Before click element--->inputtext = 
+19:01:05.398  INFO  manager.WDListener - After click element--->inputtext = 
+19:01:05.446  INFO  manager.WDListener - sendKeys--->input
+19:01:05.467  INFO  manager.WDListener - sendKeys--->input
+19:01:05.490  INFO  manager.WDListener - sendKeys--->input
+19:01:05.515  INFO  manager.WDListener - Before click element--->btext = Save
+19:01:05.555  INFO  manager.WDListener - After click element--->btext = Save
+19:01:20.559  INFO  manager.WDListener - Huston we have a problem!
+19:01:20.560  INFO  manager.WDListener - Object target--->ChromeDriver: chrome on windows (a5789c20770bed615870a486880105e0)
+19:01:20.560  INFO  manager.WDListener - ******************************************
+19:01:20.560  INFO  manager.WDListener - Method name--->getScreenshotAs
+19:01:20.560  INFO  manager.WDListener - ******************************************
+19:01:20.560  INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email not valid: должно иметь формат адреса электронной почты}
+  (Session info: chrome=134.0.6998.36): Email not valid: должно иметь формат адреса электронной почты
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.26'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5789c20770bed615870a486880105e0, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.36, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\u6o00\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53484/devtoo..., se:cdpVersion: 134.0.6998.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5789c20770bed615870a486880105e0
+19:01:20.560  INFO  manager.WDListener - ******************************************
+19:01:20.560  INFO  manager.WDListener - Screen src/test/screenshots/screen_1932.png
+19:01:20.750  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+19:01:20.752  INFO  manager.TestNGListener - *******************End test  ----> Thu Mar 13 19:01:20 IST 2025
+19:04:01.442  INFO  manager.ApplicationManager - All tests run in Chrom Browser
+19:04:02.539  INFO  manager.ApplicationManager - The link --->https://telranedu.web.app/home
+19:04:02.547  INFO  manager.TestNGListener - ***********************Start test  ----> Thu Mar 13 19:04:02 IST 2025
+19:04:02.566  INFO  tests.TestBase - Name of method--->addContactSuccessAllFieldsWithDataProviderFromFile
+19:04:07.673  INFO  manager.WDListener - Before click element--->atext = LOGIN
+19:04:07.730  INFO  manager.WDListener - After click element--->atext = LOGIN
+19:04:07.731  INFO  manager.HelperBase - Open form by click on button with locator (By.cssSelector("a[href='/login']")'
+19:04:07.760  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:07.812  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:07.862  INFO  manager.WDListener - sendKeys--->input
+19:04:07.886  INFO  manager.WDListener - sendKeys--->input
+19:04:07.911  INFO  manager.WDListener - sendKeys--->input
+19:04:07.938  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:07.983  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:08.019  INFO  manager.WDListener - sendKeys--->input
+19:04:08.040  INFO  manager.WDListener - sendKeys--->input
+19:04:08.063  INFO  manager.WDListener - sendKeys--->input
+19:04:08.091  INFO  manager.WDListener - Before click element--->buttontext = Login
+19:04:08.152  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+19:04:09.123  INFO  manager.WDListener - Before click element--->atext = ADD
+19:04:09.194  INFO  manager.WDListener - After click element--->atext = ADD
+19:04:09.226  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:09.290  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:09.342  INFO  manager.WDListener - sendKeys--->input
+19:04:09.365  INFO  manager.WDListener - sendKeys--->input
+19:04:09.387  INFO  manager.WDListener - sendKeys--->input
+19:04:09.412  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:09.456  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:09.492  INFO  manager.WDListener - sendKeys--->input
+19:04:09.512  INFO  manager.WDListener - sendKeys--->input
+19:04:09.535  INFO  manager.WDListener - sendKeys--->input
+19:04:09.558  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:09.611  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:09.653  INFO  manager.WDListener - sendKeys--->input
+19:04:09.676  INFO  manager.WDListener - sendKeys--->input
+19:04:09.708  INFO  manager.WDListener - sendKeys--->input
+19:04:09.740  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:09.800  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:09.840  INFO  manager.WDListener - sendKeys--->input
+19:04:09.860  INFO  manager.WDListener - sendKeys--->input
+19:04:09.900  INFO  manager.WDListener - sendKeys--->input
+19:04:09.927  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:09.981  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:10.046  INFO  manager.WDListener - sendKeys--->input
+19:04:10.067  INFO  manager.WDListener - sendKeys--->input
+19:04:10.089  INFO  manager.WDListener - sendKeys--->input
+19:04:10.112  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:10.162  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:10.197  INFO  manager.WDListener - sendKeys--->input
+19:04:10.216  INFO  manager.WDListener - sendKeys--->input
+19:04:10.242  INFO  manager.WDListener - sendKeys--->input
+19:04:10.265  INFO  manager.WDListener - Before click element--->btext = Save
+19:04:10.329  INFO  manager.WDListener - After click element--->btext = Save
+19:04:10.958  INFO  manager.TestNGListener - Test success addContactSuccessAllFieldsWithDataProviderFromFile
+19:04:10.959  INFO  tests.TestBase - Name of method--->addContactSuccessAllFieldsWithDataProviderFromFile
+19:04:10.967  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+19:04:10.990  INFO  manager.WDListener - Before click element--->atext = ADD
+19:04:11.043  INFO  manager.WDListener - After click element--->atext = ADD
+19:04:11.064  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:11.112  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:11.149  INFO  manager.WDListener - sendKeys--->input
+19:04:11.176  INFO  manager.WDListener - sendKeys--->input
+19:04:11.199  INFO  manager.WDListener - sendKeys--->input
+19:04:11.217  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:11.270  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:11.313  INFO  manager.WDListener - sendKeys--->input
+19:04:11.340  INFO  manager.WDListener - sendKeys--->input
+19:04:11.369  INFO  manager.WDListener - sendKeys--->input
+19:04:11.395  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:11.456  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:11.501  INFO  manager.WDListener - sendKeys--->input
+19:04:11.524  INFO  manager.WDListener - sendKeys--->input
+19:04:11.562  INFO  manager.WDListener - sendKeys--->input
+19:04:11.588  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:11.644  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:11.684  INFO  manager.WDListener - sendKeys--->input
+19:04:11.706  INFO  manager.WDListener - sendKeys--->input
+19:04:11.745  INFO  manager.WDListener - sendKeys--->input
+19:04:11.773  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:11.828  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:11.868  INFO  manager.WDListener - sendKeys--->input
+19:04:11.891  INFO  manager.WDListener - sendKeys--->input
+19:04:11.912  INFO  manager.WDListener - sendKeys--->input
+19:04:11.934  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:11.993  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:12.027  INFO  manager.WDListener - sendKeys--->input
+19:04:12.045  INFO  manager.WDListener - sendKeys--->input
+19:04:12.065  INFO  manager.WDListener - sendKeys--->input
+19:04:12.083  INFO  manager.WDListener - Before click element--->btext = Save
+19:04:12.134  INFO  manager.WDListener - After click element--->btext = Save
+19:04:12.647  INFO  manager.TestNGListener - Test success addContactSuccessAllFieldsWithDataProviderFromFile
+19:04:12.647  INFO  tests.TestBase - Name of method--->addContactSuccessAllFieldsWithDataProviderFromFile
+19:04:12.656  INFO  manager.TestNGListener - Start test addContactSuccessAllFieldsWithDataProviderFromFile
+19:04:12.676  INFO  manager.WDListener - Before click element--->atext = ADD
+19:04:12.735  INFO  manager.WDListener - After click element--->atext = ADD
+19:04:12.765  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:12.833  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:12.880  INFO  manager.WDListener - sendKeys--->input
+19:04:12.902  INFO  manager.WDListener - sendKeys--->input
+19:04:12.928  INFO  manager.WDListener - sendKeys--->input
+19:04:12.949  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:12.994  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:13.027  INFO  manager.WDListener - sendKeys--->input
+19:04:13.047  INFO  manager.WDListener - sendKeys--->input
+19:04:13.070  INFO  manager.WDListener - sendKeys--->input
+19:04:13.086  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:13.132  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:13.178  INFO  manager.WDListener - sendKeys--->input
+19:04:13.200  INFO  manager.WDListener - sendKeys--->input
+19:04:13.232  INFO  manager.WDListener - sendKeys--->input
+19:04:13.254  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:13.296  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:13.334  INFO  manager.WDListener - sendKeys--->input
+19:04:13.354  INFO  manager.WDListener - sendKeys--->input
+19:04:13.391  INFO  manager.WDListener - sendKeys--->input
+19:04:13.417  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:13.472  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:13.505  INFO  manager.WDListener - sendKeys--->input
+19:04:13.523  INFO  manager.WDListener - sendKeys--->input
+19:04:13.545  INFO  manager.WDListener - sendKeys--->input
+19:04:13.568  INFO  manager.WDListener - Before click element--->inputtext = 
+19:04:13.652  INFO  manager.WDListener - After click element--->inputtext = 
+19:04:13.703  INFO  manager.WDListener - sendKeys--->input
+19:04:13.728  INFO  manager.WDListener - sendKeys--->input
+19:04:13.752  INFO  manager.WDListener - sendKeys--->input
+19:04:13.771  INFO  manager.WDListener - Before click element--->btext = Save
+19:04:13.814  INFO  manager.WDListener - After click element--->btext = Save
+19:04:14.335  INFO  manager.TestNGListener - Test success addContactSuccessAllFieldsWithDataProviderFromFile
+19:04:14.338  INFO  manager.TestNGListener - *******************End test  ----> Thu Mar 13 19:04:14 IST 2025

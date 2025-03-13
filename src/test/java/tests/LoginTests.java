@@ -32,7 +32,7 @@ public class LoginTests extends TestBase{
     }
 
     @Test(dataProvider = "loginData",dataProviderClass = DataProviderUser.class)
-    public void loginSuccessWithDataProvider(String email, String password){
+    public void loginSuccessWithDataProvider(String email,String password){
         logger.info("Start test 'loginSuccess'");
        app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(email,password);

@@ -56,6 +56,18 @@ public class AddNewContactTests extends TestBase {
         Assert.assertTrue(app.getHelperContact().isContactAddedByPhone(contact.getPhone()));
 
     }
+    @Test(dataProvider = "contactCSV",dataProviderClass = DataProviderContact.class)
+    public void addContactSuccessAllFieldsWithDataProviderFromFile(Contact contact){
+        int i = (int)((System.currentTimeMillis()/1000)%3600);
+        app.getHelperContact().openContactForm();
+        app.getHelperContact().fillContactForm(contact);
+        app.getHelperContact().saveContact();
+        //app.getHelperContact().pause(15000);
+        app.getHelperContact().getScreen("src/test/screenshots/screen-"+i+".png");
+        Assert.assertTrue(app.getHelperContact().isContactAddedByName(contact.getName()));
+        Assert.assertTrue(app.getHelperContact().isContactAddedByPhone(contact.getPhone()));
+
+    }
 
     @Test
     public void addNewContactWrongName(){

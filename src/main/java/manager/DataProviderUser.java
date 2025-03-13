@@ -21,7 +21,7 @@ public class DataProviderUser {
     @DataProvider
     public Iterator<Object[]> loginData(){
         List<Object[]> list = new ArrayList<>();
-        list.add(new Object[]{"d@gmail.com","DariaM1991!DariaM1991!"});
+        list.add(new Object[]{"d@gmail.com","DariaM1991!"});
         list.add(new Object[]{"masha91@gmail.com","MashaM1992!"});
         list.add(new Object[]{"pasha93@gmail.com","PashaM1993!"});
 

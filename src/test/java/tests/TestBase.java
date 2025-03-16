@@ -2,6 +2,7 @@ package tests;
 
 import manager.ApplicationManager;
 import manager.TestNGListener;
+import org.openqa.selenium.remote.Browser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterSuite;
@@ -24,7 +25,7 @@ public class TestBase {
         logger.info("Name of method--->"+m.getName());
     }
 
-   static ApplicationManager app = new ApplicationManager();
+   static ApplicationManager app = new ApplicationManager(System.getProperty("browser", Browser.CHROME.browserName()));
 
     @BeforeSuite
     public void setApp(){
@@ -32,7 +33,7 @@ public class TestBase {
         app. init();
     }
 
-    @AfterSuite
+    @AfterSuite(alwaysRun = true)
     public void tearDown(){
 
         app.stop();

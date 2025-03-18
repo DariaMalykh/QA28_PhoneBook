@@ -41,3 +41,18 @@ task qa(type:Test){
     }
     if(project.hasProperty('browser')){ systemProperty 'browser',  "${browser}"  }
 }
+
+task scope(type:Test){
+    useTestNG(){
+        suites 'src/test/resources/scope.xml'
+    }
+}
+task team(type:Test){
+    useTestNG(){
+        def groups = System.getProperty('groups')
+        if (groups != null) {
+            includeGroups groups
+        }
+        suites 'src/test/resources/base.xml'
+    }
+}

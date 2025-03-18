@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class RegistrationTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         if(app.getHelperUser().isLogged())
             app.getHelperUser().logout();
@@ -36,7 +36,7 @@ public class RegistrationTests extends TestBase{
         Assert.assertTrue(app.getHelperUser().isAlertPresent("User already exist"));
     }
 
-    @Test(description = "Bug report #12365")
+    @Test(description = "Bug report #12365",groups = {"smoke"})
     public void RegistrationWrongEmail(){
         Random random = new Random();
         int i = (int)((System.currentTimeMillis()/1000)%3600);

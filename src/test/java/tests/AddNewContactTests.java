@@ -10,14 +10,14 @@ import org.testng.annotations.Test;
 
 public class AddNewContactTests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (!app.getHelperUser().isLogged()) {
             app.getHelperUser().login(new User().setEmail("d@gmail.com").setPassword("DariaM1991!"));
         }
     }
 
-        @Test
+        @Test(groups = {"smoke"})
         public void addContactSuccessAllFields(){
             int i = (int)((System.currentTimeMillis()/1000)%3600);
 
